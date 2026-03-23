@@ -12,7 +12,7 @@ sites:
     url: https://docs.webbyjack.dev
 
 status-website:
-  cname: status.webbyjack.dev
+  cname: status.webbyjack.com
   name: WEBBYJACK Status
   introTitle: "**WebbyJack** Bespoke Engineering"
   introMessage: This is the real-time operational status of our primary services, infrastructure, and open-source projects.
