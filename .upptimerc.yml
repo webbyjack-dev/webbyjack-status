@@ -19,5 +19,4 @@ status-website:
   logoUrl: https://webbyjack.com/logo.png # Replace with your actual logo URL later
   theme: dark # Options: light, dark, night, ocean
 
-# Keep the data clean
 skipDeleteIssues: true
