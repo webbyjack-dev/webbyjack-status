@@ -1,8 +1,6 @@
-# Change these two lines to match your repo exactly
 owner: webbyjack-dev
 repo: webbyjack-status
 
-# The sites you want to monitor
 sites:
   - name: WEBBYJACK 
     url: https://webbyjack.com
@@ -13,10 +11,9 @@ sites:
   - name: Dev Documentation
     url: https://docs.webbyjack.dev
 
-# Customizing the look and feel
 status-website:
   cname: status.webbyjack.dev
-  name: WebbyJack Status
+  name: WEBBYJACK Status
   introTitle: "**WebbyJack** Bespoke Engineering"
   introMessage: This is the real-time operational status of our primary services, infrastructure, and open-source projects.
   logoUrl: https://webbyjack.com/logo.png # Replace with your actual logo URL later
