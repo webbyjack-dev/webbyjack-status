@@ -1,36 +1,26 @@
-# Change these first
-owner: upptime # Your GitHub organization or username, where this repository lives
-repo: upptime # The name of this repository
+# Change these two lines to match your repo exactly
+owner: webbyjack-dev
+repo: webbyjack-status
 
+# The sites you want to monitor
 sites:
-  - name: Google
-    url: https://www.google.com
-  - name: Wikipedia
-    url: https://en.wikipedia.org
-  - name: Hacker News
-    url: https://news.ycombinator.com
-  - name: Test Broken Site
-    url: https://thissitedoesnotexist.koj.co
-  - name: IPv6 test
-    url: forwardemail.net
-    port: 80
-    check: "tcp-ping"
-    ipv6: true
+  - name: WEBBYJACK 
+    url: https://webbyjack.com
+  - name: Client Portal
+    url: https://portal.webbyjack.com
+  - name: Production API
+    url: https://api.webbyjack.com
+  - name: Dev Documentation
+    url: https://docs.webbyjack.dev
 
+# Customizing the look and feel
 status-website:
-  # Add your custom domain name, or remove the `cname` line if you don't have a domain
-  # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
-  cname: demo.upptime.js.org
-  # baseUrl: /your-repo-name
-  logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
-  name: Upptime
-  introTitle: "**Upptime** is the open-source uptime monitor and status page, powered entirely by GitHub."
-  introMessage: This is a sample status page which uses **real-time** data from our [GitHub repository](https://github.com/upptime/upptime). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/upptime/upptime)
-  navbar:
-    - title: Status
-      href: /
-    - title: GitHub
-      href: https://github.com/$OWNER/$REPO
+  cname: status.webbyjack.dev
+  name: WebbyJack Status
+  introTitle: "**WebbyJack** Bespoke Engineering"
+  introMessage: This is the real-time operational status of our primary services, infrastructure, and open-source projects.
+  logoUrl: https://webbyjack.com/logo.png # Replace with your actual logo URL later
+  theme: dark # Options: light, dark, night, ocean
 
-# Upptime also supports notifications, assigning issues, and more
-# See https://upptime.js.org/docs/configuration
+# Keep the data clean
+skipDeleteIssues: true
