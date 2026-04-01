@@ -1,4 +1,4 @@
-# 🟢 WEBBYJACK Status
+# 🟢 System Status
 **Live Status Page:** [status.webbyjack.com](https://status.webbyjack.com)
 
 This repository contains the automated uptime monitoring and incident response logging for our core infrastructure. It pings our critical endpoints every 5 minutes to ensure maximum reliability.
